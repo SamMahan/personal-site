@@ -1,0 +1,85 @@
+.title-card {
+  //   margin-bottom: 0.5rem;
+  &.title-card-light {
+    color: $color-1;
+    border-color: $color-1 !important;
+  }
+  &.title-card-dark {
+    color: $color-2;
+    h1 {
+      color: $color-2;
+    }
+    border-color: $color-1 !important;
+  }
+}
+.card {
+  border-style: solid !important;
+  border-width: 4px !important;
+  border-radius: 0px !important;
+  background-color: transparent !important;
+
+  &.no-border {
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-left-width: 0px !important;
+  }
+  .card-body {
+    background-color: transparent !important;
+  }
+  .card-subtitle {
+    // color: $color-1;
+    font-family: $header-font !important;
+    font-weight: 300 !important;
+    font-style: italic;
+    font-size: 25px;
+    height: 25px !important;
+  }
+}
+
+.starting-jumbo-image {
+  // background-repeat: no-repeat; /* Do not repeat the image */
+  // background-position: right; /*  */
+  // background-size:cover;
+  // background-position: left;
+
+  /* Set a specific height */
+  // height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .jumbotron {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  .starting-jumbo {
+    background-color: transparent;
+  }
+  &.jumbo-upper {
+    background-image: url("../../big-editor.JPG");
+    .starting-jumbo-inner-background {
+      background: $color-1-transparent;
+    }
+    .jumbotron {
+      margin-bottom: 0px !important;
+    }
+    border-bottom-width: 3px !important;
+    border-bottom-color: $color-1 !important;
+    border-bottom-style: solid;
+  }
+  &.jumbo-lower {
+    background-image: url("../../jumbo-db.JPG");
+    .starting-jumbo-inner-background {
+      background: $color-3-transparent;
+    }
+  }
+}
+
+// .jumbo-lower, .starting-jumbo-image{
+//     background-image: url('../../jumbo-image.JPG');
+//     .starting-jumbo-inner-background{
+//         background: linear-gradient(90deg, $color-3 24%, rgba(12,19,208,0) 80%);
+//     }
+// }

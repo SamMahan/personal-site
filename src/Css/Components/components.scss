@@ -1,0 +1,15 @@
+.display-card {
+  height: 0.2vh !important;
+}
+
+.top-paragraph {
+  margin-top: 1rem;
+}
+
+.carousel {
+  a.carousel-control-next {
+    &::hover {
+      background-color: $color-3-transparent !important;
+    }
+  }
+}

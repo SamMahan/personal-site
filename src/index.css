@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.root{
+  height:100%
+}
+
+.App {
+  background-color:#282c34;
+  height: 100%,
+  
+}
+
+.App .big-title{
+    color:white;
+}
+
+.color-primary{
+  color: #A2D6F9;
+}
+
+.color-secondary{
+  color: #1E96FC;
+}
+
+.color-background{
+  color: #072AC8;
+}
+
+.color-action{
+  color: #FCF300;
+}
+
+.color-look{
+  color: #FFC600;
+}
