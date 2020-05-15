@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <NavbarCustom> </NavbarCustom>
-
       <Row>
         <Col md="2" offset="1">
           {/* <h1 className = 'big-title'>Hey There</h1>
