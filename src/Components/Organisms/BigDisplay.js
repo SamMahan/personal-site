@@ -12,7 +12,7 @@ const params = [
     text:
       "\
     Made in collaboration with James Gelok, Sherlock is an application that tests users\
-    knowledge abilities with virtual, multi-sided flash cards. It uses the data in collects from\
+    knowledge abilities with virtual, multi-sided flash cards. It uses the data it collects from\
     test scores to learn the forgetting curve of the user and provide them with a streamlined\
     learning experience. We are currently in the 'Test Flight' stage of ios deployment and will\
     push out version 1 in the comming weeks.\

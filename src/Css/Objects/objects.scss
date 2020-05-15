@@ -26,8 +26,12 @@
   .card-body {
     background-color: transparent !important;
   }
+  .card-title {
+    text-align: center;
+  }
   .card-subtitle {
     // color: $color-1;
+    text-align: center;
     font-family: $header-font !important;
     font-weight: 300 !important;
     font-style: italic;
