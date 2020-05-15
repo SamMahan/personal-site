@@ -19,20 +19,24 @@ function Introduction() {
   return (
     <Container fluid>
       <Row>
-        <Col xs={{ offset: 1, size: 10 }}>
+        <Col xs={{ offset: 1, size: 5 }}>
           <TitleCard
             title="Samuel F Mahan"
-            subTitle="Entreprenuer, Coder, CTO - evemint LLC"
+            subTitle="Entreprenuer, Coder, CTO - Evemint LLC"
             type="dark"
-            noBorder={true}
+            borderStyle={"noBorder"}
           ></TitleCard>
         </Col>
-        <Col xs={{ offset: 1, size: 10 }}>
-          <p className="top-paragraph">Hi. I'm Sam and I build Apps.</p>
-          <p>
-            I have full stack experience using the latest front-end and
-            server-side technologies for both the web and mobile. Check out my
-            most recent project below!
+        <Col xs={{ offset: 0, size: 5 }}>
+          <p className="big-paragraph align-center">Hi</p>
+          <p className="align-center">
+            I'm a full stack developer specializing in small to mid-sized web
+            applications.
+          </p>
+
+          <p className="align-center">
+            I use the latest and buzz-wordiest technologies to make elegant and
+            enjoyable user experiences.
           </p>
         </Col>
       </Row>

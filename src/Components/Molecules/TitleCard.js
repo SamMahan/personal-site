@@ -10,10 +10,15 @@ import {
   Card,
 } from "reactstrap";
 import Typing from "react-typing-animation";
-function TitleCard({ title, subTitle, type, noBorder }) {
+function TitleCard({ title, subTitle, type, borderStyle }) {
   let cssMods = {
+    //title card
     dark: "title-card-dark",
     action: "title-card-action",
+
+    //border controls
+    noBorder: "no-border",
+    borderBottom: "border-bottom",
   };
   let cssArr = ["title-card"];
   const [subTitleState, setSubTitleState] = useState(subTitle);
@@ -37,7 +42,7 @@ function TitleCard({ title, subTitle, type, noBorder }) {
   }
 
   cssArr.push(cssMods[type] ? cssMods[type] : "title-card-light");
-  cssArr.push(noBorder ? "no-border" : "");
+  cssArr.push(cssMods[borderStyle] ? cssMods[borderStyle] : "");
   let cssString = cssArr.join(" ");
   // console.log(subTitleState);
   return (

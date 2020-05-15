@@ -20,7 +20,7 @@ function DisplayCard({ title, technologyArr, text, imageLinkArr }) {
 
       <Col xs={{ offset: 1, size: 10 }} md={{ offset: 0, size: 5 }}>
         <TitleCard
-          noBorder={true}
+          borderStyle="borderBottom"
           type="dark"
           title={title}
           subTitle={techString}

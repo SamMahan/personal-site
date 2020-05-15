@@ -15,7 +15,7 @@ const params = [
     knowledge abilities with virtual, multi-sided flash cards. It uses the data it collects from\
     test scores to learn the forgetting curve of the user and provide them with a streamlined\
     learning experience. We are currently in the 'Test Flight' stage of ios deployment and will\
-    push out version 1 in the comming weeks.\
+    push out version 1 in the coming weeks.\
     ",
     imageLinkArr: [
       {
@@ -33,7 +33,7 @@ function BigDisplay() {
         <Row>
           <Col xs={{ offset: 4, size: 4 }}>
             <TitleCard
-              noBorder={true}
+              borderStyle={"borderBottom"}
               type="dark"
               title=" "
               subTitle=" "

@@ -6,7 +6,7 @@ import NavbarCustom from "../Organisms/NavbarCustom";
 import { Jumbotron, Container, Row, Col } from "reactstrap";
 
 const title1Arr = ["PHP", "Javascript", "React"];
-const title2Arr = ["MongoDb", "MySQL", "Eloquent ORM", "SQL Server"];
+const title2Arr = ["MongoDb", "MySQL", "ORM Systems", "SQL Server"];
 function StartingJumbo() {
   const [isIterating, setIsIterating] = useState(false);
   const [title1Index, setTitle1Index] = useState(0);
